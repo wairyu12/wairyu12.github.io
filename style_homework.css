@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 /*h1.h2字體規範*/
 
 h1 {
@@ -76,6 +80,7 @@ a:link {
     margin-left: 32PX;
     margin-top: 30px;
     color: #d6caf2;
+    clear: both;
 }
 .icon a:link {
     color: #bca6ed;
@@ -102,6 +107,7 @@ a:link {
     color: #5c5c5c;
     letter-spacing: 2px;
     line-height: 27px;
+    width: 450px;
 }
 .contents>span>p>img {
     width: 250px;
@@ -155,4 +161,98 @@ a:link {
 #t3 {
     padding-left: 5px;
     border-right: 2px dotted #b4b4b4
+}
+
+/*手機繪圖*/
+
+.draw {
+    border: 10px solid transparent;
+    border-image: url(work03/img/flower2-01.png) 100 100 round;
+    width: 80%;
+    height: 370px;
+    padding: 20px;
+    /*    左右置中*/
+    margin: 0 auto;
+    /*    當元素變為浮動視窗，不會縮排*/
+    overflow: hidden;
+}
+.cimg {
+    background-image: url(work03/img/ip6s.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    height: 300px;
+    margin-bottom: 30px;
+    float: left;
+}
+.iphone {
+    width: 50%;
+    height: 300px;
+    float: right;
+}
+#phonebody {
+    width: 150px;
+    height: 295px;
+    margin-top: 10px;
+    border: 2px solid #ffd5d3;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-color: #fafafa;
+    position: relative;
+}
+#phone1 {
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #000000;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+#phone2 {
+    width: 30px;
+    height: 2.5px;
+    border-radius: 4px;
+    background-color: #000000;
+    margin: 0 auto;
+    margin-top: 4px;
+}
+#phone3 {
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    background-color: #000000;
+    position: absolute;
+    top: 14px;
+    left: 40px;
+}
+#phone4 {
+    width: 130px;
+    height: 230px;
+    border-radius: 2px;
+    background-color: #000000;
+    position: absolute;
+    top: 30px;
+    left: 8px;
+}
+#phone6 {
+    width: 126px;
+    height: 226px;
+    border-radius: 2px;
+    background-image: url(work03/img/aurora-1197753.jpg);
+    background-size: 400px auto;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: absolute;
+    top: 32px;
+    left: 10px;
+}
+#phone5 {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    border: 2px solid #ffd5d3;
+    position: absolute;
+    top: 263px;
+    left: 60px;
 }
