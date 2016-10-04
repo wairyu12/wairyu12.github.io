@@ -1,0 +1,144 @@
+<!--問題-無法展開按鈕、nav按鈕連接對應不到上方-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="renderer" content="webkit">
+	<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="freelancer.css">
+	<title>Freelancer</title>
+</head>
+
+<body>
+	<div class="row">
+		<div class="nav01 col-md-12">
+			<nav>
+				<!--               按鈕-->
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target="#navbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+					<div class="pull-left"> <a href="#">START BOOTSTRAP</a> </div>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar">
+					<ul>
+						<!--			ul>(li>a[href="#"]{Start Bootstrap})*4-->
+						<div class="pull-right">
+							<li><a href="#pro">PROTFOLIO</a></li>
+							<li><a href="#about">ABOUT</a></li>
+							<li><a href="#contact">CONTACT</a></li>
+						</div>
+					</ul>
+				</div>
+				<!--                按鈕-->
+			</nav>
+		</div>
+	</div>
+	<!--	div.row>div.col-md-12>div.container-->
+	<div class="container01">
+		<div class="row">
+			<div class="col-md-4 col-sm-12  "> </div>
+			<div class="col-md-4 col-sm-12 pro"> <img src="img/profile.png" alt="profile"> </div>
+			<div class="col-md-4 col-sm-12"> </div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 title ">
+				<h1>START BOOTSTRAP
+</h1>
+				<hr class="star-light">
+				<h2>Web Developer - Graphic Artist - User Experience Designer</h2></div>
+		</div>
+	</div>
+	<!--div.row>div.col-md-12>h3.black-->
+	<div class="port" id="pro">
+		<div class="row">
+			<div class="col-md-12">
+				<h3 class="black">PORTFOLIO</h3>
+				<hr class="star-black"> </div>
+			<div class="col-md-4 col-sm-12 colimg">
+				<a href=""><img src="img/portfolio/cabin.png" alt="cabin"></a>
+			</div>
+			<div class="col-md-4 col-sm-12 colimg">
+				<a href=""><img src="img/portfolio/cake.png" alt="cake"></a>
+			</div>
+			<div class="col-md-4 col-sm-12 colimg">
+				<a href=""><img src="img/portfolio/circus.png" alt="circus"></a>
+			</div>
+			<div class="col-md-4 col-sm-12 colimg">
+				<a href=""><img src="img/portfolio/game.png" alt="game"></a>
+			</div>
+			<div class="col-md-4 col-sm-12 colimg">
+				<a href=""><img src="img/portfolio/safe.png" alt="safe"></a>
+			</div>
+			<div class="col-md-4 col-sm-12 colimg">
+				<a href=""><img src="img/portfolio/submarine.png" alt="sub"></a>
+			</div>
+		</div>
+	</div>
+	<div class="about" id="about">
+		<div class="row">
+			<div class="col-md-12">
+				<h3 class="white">ABOUT</h3>
+				<hr class="star-white">
+				<p> Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization. Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+				<div class="a-link">
+					<a href="#">
+						<button id="button-dt">Download Theme</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="contact" id="contact">
+		<div class="row">
+			<h3 class="black">CONTACT ME</h3>
+			<hr class="star-black">
+			<hr class="con">
+			<input type="text" placeholder="Name" class="te">
+			<hr class="con">
+			<input type="text" placeholder="Email Address" class="te">
+			<hr class="con">
+			<input type="text" placeholder="Phone Number" class="te">
+			<hr class="con">
+			<!--        <input type="text" placeholder="Message" class="te">-->
+			<textarea cols="50" rows="5" class="te">Message </textarea>
+			<hr class="con">
+			<button id="send">Send</button>
+		</div>
+	</div>
+	<div class="row">
+		<div class="footer">
+			<div class="col-md-4 col-sm-12">
+				<h4>LOCATION</h4>
+				<p class="location">3481 Melrose Place Beverly Hills, CA 90210</p>
+			</div>
+			<div class="col-md-4 col-sm-12 icon">
+				<h4>AROUND THE WEB</h4>
+				<ul>
+					<li><a href=""><i class="fa fa-facebook" id="aro-text" aria-hidden="true"></i></a></li>
+					<li><a href=""><i class="fa fa-google-plus" id="aro-text" aria-hidden="true"></i></a></li>
+					<li><a href=""><i class="fa fa-twitter" id="aro-text" aria-hidden="true"></i></a></li>
+					<li><a href=""><i class="fa fa-linkedin" id="aro-text" aria-hidden="true"></i></a></li>
+					<li><a href=""><i class="fa fa-dribbble" id="aro-text" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<h4>ABOUT FREELANCER</h4>
+				<p class="location">Freelance is a free to use, open source Bootstrap theme created by <a href="">Start Bootstrap.</a></p>
+			</div>
+		</div>
+	</div>
+	<div class="copyright">
+		<div class="row">
+			<div class="col-md-12">
+				<h5>Copyright © Your Website 2016</h5> </div>
+		</div>
+	</div>
+	<!--	一定要引用!!!才會有動做-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+
+</html>
