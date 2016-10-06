@@ -92,17 +92,16 @@
 	width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin: 0 0 -12px 0;
 }
 .con-img-wo {
-	margin-top: 300PX;
-	padding-left: 700px;
-	width: 100%;
+	margin-top: 300px;
+	width: 70%;
 }
 .con-img-wo h1 {
 	font-weight: 500;
 	font-size: 5em;
 	letter-spacing: 5px;
+	text-align: right;
 	color: #535353;
 	width: 100%;
 }
@@ -111,6 +110,7 @@
 	font-size: 2em;
 	color: #797979;
 	width: 100%;
+	text-align: right;
 }
 
 /*container01*/
